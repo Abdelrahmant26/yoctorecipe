@@ -1,9 +1,6 @@
 # yoctorecipe
 Yocto Task
 ### Included Layers:
-
-layer                 path                                      priority
-==========================================================================
 - meta                  /home/yocto/poky/meta                     5
 - meta-poky             /home/yocto/poky/meta-poky                5
 - meta-yocto-bsp        /home/yocto/poky/meta-yocto-bsp           5
