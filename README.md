@@ -1,6 +1,7 @@
 # yoctorecipe
 Yocto Task
 ### Included Layers:
+```
 - meta                  /home/yocto/poky/meta                     5
 - meta-poky             /home/yocto/poky/meta-poky                5
 - meta-yocto-bsp        /home/yocto/poky/meta-yocto-bsp           5
@@ -10,7 +11,7 @@ Yocto Task
 - meta-oe               /home/yocto/poky/meta-openembedded/meta-oe  5
 - meta-webserver        /home/yocto/poky/meta-openembedded/meta-webserver  5
 - meta-qt5              /home/yocto/poky/meta-qt5                 7
-
+```
 every sw is has its own recipe within meta-IVI:
 - wifi
 - custom Cpp Hello
