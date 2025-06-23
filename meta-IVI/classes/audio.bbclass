@@ -1,0 +1,1 @@
+IMAGE_INSTALL:append = " pavucontrol pulseaudio pulseaudio-module-dbus-protocol pulseaudio-server pulseaudio-module-loopback bluez5 alsa-utils alsa-plugins alsa-lib alsa-oss pulseaudio-module-bluetooth-policy pulseaudio-module-bluez5-device pulseaudio-module-bluez5-discover pulseaudio-module-bluetooth-discover"
