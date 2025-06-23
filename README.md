@@ -13,14 +13,17 @@ meta-oe               /home/yocto/poky/meta-openembedded/meta-oe  5
 meta-webserver        /home/yocto/poky/meta-openembedded/meta-webserver  5
 meta-qt5              /home/yocto/poky/meta-qt5                 7
 
-every sw is included in its own recipe within meta-IVI:
+every sw is has its own recipe within meta-IVI:
 - wifi
 - custom Cpp Hello
 - rpiplay
 - nano
 - WiFi and avahi
+- openssh
 
-appended Pulseaudio & bluetooth as class within meta-IVI
+# appended Pulseaudio & bluetooth as class within meta-IVI
+
+# included debug-tweaks in ivi-image recipe
 
 ##Distro Features are appended within the local.conf file including:
 - systemd
